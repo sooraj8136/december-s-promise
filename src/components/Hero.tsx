@@ -12,12 +12,13 @@ export function Hero({ onBegin }: { onBegin: () => void }) {
     >
       <div className="max-w-3xl">
         <motion.p
-          className="font-sans text-[0.62rem] uppercase tracking-[0.32em] text-muted-foreground sm:text-xs"
+          className="font-sans text-[0.62rem] tracking-[0.32em] text-muted-foreground sm:text-xs"
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.35 }}
         >
-          For the girl I&apos;m waiting to meet
+          {/* For the girl I&apos;m waiting to meet */}
+          To My Devummaaaa❤️
         </motion.p>
         <motion.h1
           className="mt-8 font-serif text-5xl font-normal leading-none text-foreground sm:text-7xl md:text-8xl"

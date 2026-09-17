@@ -60,6 +60,7 @@ export function Countdown() {
         </div>
       </motion.div>
       <p className="mt-16 font-serif text-lg italic text-muted-foreground">“But every day brings us closer.”</p>
+      <p className="mt-16 font-serif text-lg italic text-muted-foreground">"Ini onn thazhekk vanneee nte devummam😌”</p>
     </motion.section>
   );
 }
