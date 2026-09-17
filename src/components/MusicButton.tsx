@@ -25,7 +25,7 @@ export function MusicButton() {
 
   return (
     <div className="fixed bottom-5 right-5 z-50">
-      <audio ref={audioRef} src={config.music} loop onEnded={() => setPlaying(false)} />
+      <audio ref={audioRef} src={config.music} preload="none" loop onEnded={() => setPlaying(false)} />
       <Button
         variant="ghost"
         size="icon"
